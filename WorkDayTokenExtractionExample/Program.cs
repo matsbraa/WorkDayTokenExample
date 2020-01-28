@@ -7,8 +7,6 @@ namespace WorkDayTokenExtractionExample
     {
         static void Main(string[] args)
         {
-
-
             var client = new RestClient("https://login.microsoftonline.com/623ec005-a3d1-4dd8-901b-66199f855166/oauth2/v2.0/token");
             var request = new RestRequest(Method.POST);
             request.AddHeader("cache-control", "no-cache");
